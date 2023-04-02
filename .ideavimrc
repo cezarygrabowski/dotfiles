@@ -33,27 +33,10 @@ nnoremap <leader>zm :action ToggleZenMode<CR>
 nnoremap <leader>sh :action SplitHorizontally<CR>
 nnoremap <leader>sv :action SplitVertically<CR>
 nnoremap <leader>un :action UnsplitAll<CR>
-nnoremap <leader>ns :action NextSplitter<CR>
-nnoremap <leader>ps :action PrevSplitter<CR>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nnoremap <S-l> :action NextSplitter<CR>
+nnoremap <S-h> :action PrevSplitter<CR>
+nnoremap <leader>e :action RecentFiles<CR>
+nnoremap <leader>i :action ShowIntentionActions<CR>
 
 " Find more examples here: https://jb.gg/share-ideavimrc
 " Disable arrow keys
